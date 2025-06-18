@@ -8,7 +8,7 @@ import pickle
 pd.set_option('display.unicode.east_asian_width', True)
 
 # 读取数据集（请确保文件路径正确）
-insurance_df = pd.read_csv('C:/Users/Lenovo/insurance-chinese.csv', encoding='gbk')
+insurance_df = pd.read_csv('insurance-chinese.csv', encoding='gbk')
 
 # 提取特征与目标变量
 output = insurance_df['医疗费用']
